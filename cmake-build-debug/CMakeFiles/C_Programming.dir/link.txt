@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/C_Programming.dir/main.c.o CMakeFiles/C_Programming.dir/HelloWorld.c.o CMakeFiles/C_Programming.dir/file1.c.o  -o C_Programming 
+/usr/bin/c++  -g   CMakeFiles/C_Programming.dir/main.c.o CMakeFiles/C_Programming.dir/manas.cpp.o  -o C_Programming 

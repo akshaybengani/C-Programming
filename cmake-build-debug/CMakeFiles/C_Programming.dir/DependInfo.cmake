@@ -1,17 +1,24 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "C"
+  "CXX"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/akshaybengani/CLionProjects/C-Programming/HelloWorld.c" "/home/akshaybengani/CLionProjects/C-Programming/cmake-build-debug/CMakeFiles/C_Programming.dir/HelloWorld.c.o"
-  "/home/akshaybengani/CLionProjects/C-Programming/file1.c" "/home/akshaybengani/CLionProjects/C-Programming/cmake-build-debug/CMakeFiles/C_Programming.dir/file1.c.o"
   "/home/akshaybengani/CLionProjects/C-Programming/main.c" "/home/akshaybengani/CLionProjects/C-Programming/cmake-build-debug/CMakeFiles/C_Programming.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  )
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/akshaybengani/CLionProjects/C-Programming/manas.cpp" "/home/akshaybengani/CLionProjects/C-Programming/cmake-build-debug/CMakeFiles/C_Programming.dir/manas.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # Targets to which this target links.

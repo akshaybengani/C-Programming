@@ -123,60 +123,6 @@ C_Programming/fast:
 	$(MAKE) -f CMakeFiles/C_Programming.dir/build.make CMakeFiles/C_Programming.dir/build
 .PHONY : C_Programming/fast
 
-HelloWorld.o: HelloWorld.c.o
-
-.PHONY : HelloWorld.o
-
-# target to build an object file
-HelloWorld.c.o:
-	$(MAKE) -f CMakeFiles/C_Programming.dir/build.make CMakeFiles/C_Programming.dir/HelloWorld.c.o
-.PHONY : HelloWorld.c.o
-
-HelloWorld.i: HelloWorld.c.i
-
-.PHONY : HelloWorld.i
-
-# target to preprocess a source file
-HelloWorld.c.i:
-	$(MAKE) -f CMakeFiles/C_Programming.dir/build.make CMakeFiles/C_Programming.dir/HelloWorld.c.i
-.PHONY : HelloWorld.c.i
-
-HelloWorld.s: HelloWorld.c.s
-
-.PHONY : HelloWorld.s
-
-# target to generate assembly for a file
-HelloWorld.c.s:
-	$(MAKE) -f CMakeFiles/C_Programming.dir/build.make CMakeFiles/C_Programming.dir/HelloWorld.c.s
-.PHONY : HelloWorld.c.s
-
-file1.o: file1.c.o
-
-.PHONY : file1.o
-
-# target to build an object file
-file1.c.o:
-	$(MAKE) -f CMakeFiles/C_Programming.dir/build.make CMakeFiles/C_Programming.dir/file1.c.o
-.PHONY : file1.c.o
-
-file1.i: file1.c.i
-
-.PHONY : file1.i
-
-# target to preprocess a source file
-file1.c.i:
-	$(MAKE) -f CMakeFiles/C_Programming.dir/build.make CMakeFiles/C_Programming.dir/file1.c.i
-.PHONY : file1.c.i
-
-file1.s: file1.c.s
-
-.PHONY : file1.s
-
-# target to generate assembly for a file
-file1.c.s:
-	$(MAKE) -f CMakeFiles/C_Programming.dir/build.make CMakeFiles/C_Programming.dir/file1.c.s
-.PHONY : file1.c.s
-
 main.o: main.c.o
 
 .PHONY : main.o
@@ -204,6 +150,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/C_Programming.dir/build.make CMakeFiles/C_Programming.dir/main.c.s
 .PHONY : main.c.s
 
+manas.o: manas.cpp.o
+
+.PHONY : manas.o
+
+# target to build an object file
+manas.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Programming.dir/build.make CMakeFiles/C_Programming.dir/manas.cpp.o
+.PHONY : manas.cpp.o
+
+manas.i: manas.cpp.i
+
+.PHONY : manas.i
+
+# target to preprocess a source file
+manas.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Programming.dir/build.make CMakeFiles/C_Programming.dir/manas.cpp.i
+.PHONY : manas.cpp.i
+
+manas.s: manas.cpp.s
+
+.PHONY : manas.s
+
+# target to generate assembly for a file
+manas.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Programming.dir/build.make CMakeFiles/C_Programming.dir/manas.cpp.s
+.PHONY : manas.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Programming"
-	@echo "... HelloWorld.o"
-	@echo "... HelloWorld.i"
-	@echo "... HelloWorld.s"
-	@echo "... file1.o"
-	@echo "... file1.i"
-	@echo "... file1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... manas.o"
+	@echo "... manas.i"
+	@echo "... manas.s"
 .PHONY : help
 
 

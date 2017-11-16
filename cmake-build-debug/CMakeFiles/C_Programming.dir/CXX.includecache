@@ -6,9 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/home/akshaybengani/CLionProjects/C-Programming/main.c
-stdio.h
--
-math.h
--
+/home/akshaybengani/CLionProjects/C-Programming/manas.cpp
 

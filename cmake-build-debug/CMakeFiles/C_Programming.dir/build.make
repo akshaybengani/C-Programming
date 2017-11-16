@@ -81,69 +81,43 @@ CMakeFiles/C_Programming.dir/main.c.o.provides: CMakeFiles/C_Programming.dir/mai
 CMakeFiles/C_Programming.dir/main.c.o.provides.build: CMakeFiles/C_Programming.dir/main.c.o
 
 
-CMakeFiles/C_Programming.dir/HelloWorld.c.o: CMakeFiles/C_Programming.dir/flags.make
-CMakeFiles/C_Programming.dir/HelloWorld.c.o: ../HelloWorld.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akshaybengani/CLionProjects/C-Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/C_Programming.dir/HelloWorld.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_Programming.dir/HelloWorld.c.o   -c /home/akshaybengani/CLionProjects/C-Programming/HelloWorld.c
+CMakeFiles/C_Programming.dir/manas.cpp.o: CMakeFiles/C_Programming.dir/flags.make
+CMakeFiles/C_Programming.dir/manas.cpp.o: ../manas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akshaybengani/CLionProjects/C-Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C_Programming.dir/manas.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Programming.dir/manas.cpp.o -c /home/akshaybengani/CLionProjects/C-Programming/manas.cpp
 
-CMakeFiles/C_Programming.dir/HelloWorld.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Programming.dir/HelloWorld.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/akshaybengani/CLionProjects/C-Programming/HelloWorld.c > CMakeFiles/C_Programming.dir/HelloWorld.c.i
+CMakeFiles/C_Programming.dir/manas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Programming.dir/manas.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/akshaybengani/CLionProjects/C-Programming/manas.cpp > CMakeFiles/C_Programming.dir/manas.cpp.i
 
-CMakeFiles/C_Programming.dir/HelloWorld.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Programming.dir/HelloWorld.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/akshaybengani/CLionProjects/C-Programming/HelloWorld.c -o CMakeFiles/C_Programming.dir/HelloWorld.c.s
+CMakeFiles/C_Programming.dir/manas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Programming.dir/manas.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/akshaybengani/CLionProjects/C-Programming/manas.cpp -o CMakeFiles/C_Programming.dir/manas.cpp.s
 
-CMakeFiles/C_Programming.dir/HelloWorld.c.o.requires:
+CMakeFiles/C_Programming.dir/manas.cpp.o.requires:
 
-.PHONY : CMakeFiles/C_Programming.dir/HelloWorld.c.o.requires
+.PHONY : CMakeFiles/C_Programming.dir/manas.cpp.o.requires
 
-CMakeFiles/C_Programming.dir/HelloWorld.c.o.provides: CMakeFiles/C_Programming.dir/HelloWorld.c.o.requires
-	$(MAKE) -f CMakeFiles/C_Programming.dir/build.make CMakeFiles/C_Programming.dir/HelloWorld.c.o.provides.build
-.PHONY : CMakeFiles/C_Programming.dir/HelloWorld.c.o.provides
+CMakeFiles/C_Programming.dir/manas.cpp.o.provides: CMakeFiles/C_Programming.dir/manas.cpp.o.requires
+	$(MAKE) -f CMakeFiles/C_Programming.dir/build.make CMakeFiles/C_Programming.dir/manas.cpp.o.provides.build
+.PHONY : CMakeFiles/C_Programming.dir/manas.cpp.o.provides
 
-CMakeFiles/C_Programming.dir/HelloWorld.c.o.provides.build: CMakeFiles/C_Programming.dir/HelloWorld.c.o
-
-
-CMakeFiles/C_Programming.dir/file1.c.o: CMakeFiles/C_Programming.dir/flags.make
-CMakeFiles/C_Programming.dir/file1.c.o: ../file1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/akshaybengani/CLionProjects/C-Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/C_Programming.dir/file1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_Programming.dir/file1.c.o   -c /home/akshaybengani/CLionProjects/C-Programming/file1.c
-
-CMakeFiles/C_Programming.dir/file1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_Programming.dir/file1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/akshaybengani/CLionProjects/C-Programming/file1.c > CMakeFiles/C_Programming.dir/file1.c.i
-
-CMakeFiles/C_Programming.dir/file1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_Programming.dir/file1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/akshaybengani/CLionProjects/C-Programming/file1.c -o CMakeFiles/C_Programming.dir/file1.c.s
-
-CMakeFiles/C_Programming.dir/file1.c.o.requires:
-
-.PHONY : CMakeFiles/C_Programming.dir/file1.c.o.requires
-
-CMakeFiles/C_Programming.dir/file1.c.o.provides: CMakeFiles/C_Programming.dir/file1.c.o.requires
-	$(MAKE) -f CMakeFiles/C_Programming.dir/build.make CMakeFiles/C_Programming.dir/file1.c.o.provides.build
-.PHONY : CMakeFiles/C_Programming.dir/file1.c.o.provides
-
-CMakeFiles/C_Programming.dir/file1.c.o.provides.build: CMakeFiles/C_Programming.dir/file1.c.o
+CMakeFiles/C_Programming.dir/manas.cpp.o.provides.build: CMakeFiles/C_Programming.dir/manas.cpp.o
 
 
 # Object files for target C_Programming
 C_Programming_OBJECTS = \
 "CMakeFiles/C_Programming.dir/main.c.o" \
-"CMakeFiles/C_Programming.dir/HelloWorld.c.o" \
-"CMakeFiles/C_Programming.dir/file1.c.o"
+"CMakeFiles/C_Programming.dir/manas.cpp.o"
 
 # External object files for target C_Programming
 C_Programming_EXTERNAL_OBJECTS =
 
 C_Programming: CMakeFiles/C_Programming.dir/main.c.o
-C_Programming: CMakeFiles/C_Programming.dir/HelloWorld.c.o
-C_Programming: CMakeFiles/C_Programming.dir/file1.c.o
+C_Programming: CMakeFiles/C_Programming.dir/manas.cpp.o
 C_Programming: CMakeFiles/C_Programming.dir/build.make
 C_Programming: CMakeFiles/C_Programming.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/akshaybengani/CLionProjects/C-Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable C_Programming"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/akshaybengani/CLionProjects/C-Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable C_Programming"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C_Programming.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -152,8 +126,7 @@ CMakeFiles/C_Programming.dir/build: C_Programming
 .PHONY : CMakeFiles/C_Programming.dir/build
 
 CMakeFiles/C_Programming.dir/requires: CMakeFiles/C_Programming.dir/main.c.o.requires
-CMakeFiles/C_Programming.dir/requires: CMakeFiles/C_Programming.dir/HelloWorld.c.o.requires
-CMakeFiles/C_Programming.dir/requires: CMakeFiles/C_Programming.dir/file1.c.o.requires
+CMakeFiles/C_Programming.dir/requires: CMakeFiles/C_Programming.dir/manas.cpp.o.requires
 
 .PHONY : CMakeFiles/C_Programming.dir/requires
 
