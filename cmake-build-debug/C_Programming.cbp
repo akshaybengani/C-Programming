@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/akshaybengani/CLionProjects/C-Programming/HelloWorld.c">
+			<Option target="C_Programming"/>
+		</Unit>
+		<Unit filename="/home/akshaybengani/CLionProjects/C-Programming/file1.c">
+			<Option target="C_Programming"/>
+		</Unit>
 		<Unit filename="/home/akshaybengani/CLionProjects/C-Programming/main.c">
 			<Option target="C_Programming"/>
 		</Unit>

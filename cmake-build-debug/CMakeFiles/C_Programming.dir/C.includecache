@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
+/home/akshaybengani/CLionProjects/C-Programming/HelloWorld.c
+stdio.h
+-
+
 /home/akshaybengani/CLionProjects/C-Programming/main.c
 stdio.h
+-
+math.h
 -
 
